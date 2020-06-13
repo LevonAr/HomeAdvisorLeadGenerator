@@ -20,6 +20,8 @@ desc_dict = {}
 location_dict = {}
 title_dict = {}
 link_dict = {}
+
+
 for i in data:
     desc_dict[counter] = data[counter]["Description"]
     location_dict[counter] = data[counter]["Address"]
