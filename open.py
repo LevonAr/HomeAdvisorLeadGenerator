@@ -11,6 +11,7 @@ if len(sys.argv)!=3:
 input_file = sys.argv[1]
 
 output_file = sys.argv[2]
+
 with open(input_file) as json_file:
     data = json.load(json_file)
 
